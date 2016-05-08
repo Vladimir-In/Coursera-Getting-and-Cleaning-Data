@@ -21,8 +21,11 @@ Training and test data are simply bound together, since they are acquired on dif
 Labels of activities from files test_y.txt and train_y.txt are replaced by activity names.
 Selection of variables is based on feature names and descriptions.
 
-Final operations (grouping, calculating average) is performed with dplyr package methods
+Final operations (grouping, calculating average) is performed with dplyr package methods (group_by and summarize_each).
 
 The resulting data set is saved in file cleaned_data_set.txt.
 
-See also: Codebook.
+See also:
+Codebook for data information;
+run_analysis.R script;
+cleaned_data_set.txt as an example of script work result.
