@@ -11,6 +11,8 @@ and provide a script, that turns it into "tidy" data, according to following dem
 
 The script run_analysis.R uses dataset root directory as working directory. Before starting it, data from the link below must be unpacked an the script file placed in that directory (default name "UCI HAR Dataset". Set it as R working directory.
 
+Note: this script uses dplyr package to work. Make sure it is installed.
+
 Run the script with the foolowing command:
 
 source("run_analysis.R")
