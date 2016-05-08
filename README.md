@@ -9,7 +9,7 @@ and provide a script, that turns it into "tidy" data, according to following dem
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-The script run_analysis.R uses dataset root directory as working directory. Before starting it, data from the link below must be unpacked an the script file placed in that directory (default name "UCI HAR Dataset". Set it as R working directory.
+The script run_analysis.R uses dataset root directory as working directory. Before starting it, data from the link below must be unpacked an the script file placed in that directory (default name "UCI HAR Dataset"). Set it as R working directory.
 
 Note: this script uses dplyr package to work. Make sure it is installed.
 
